@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">01_app</string>
+    <string name="app_title">Hola profe Mario</string>
+    <string name="email_placeholder">Email</string>
+    <string name="nombre">Nombre</string>
+    <string name="requerido">(Requerido)</string>
+    <string name="enter">Enter</string>
+</resources>
