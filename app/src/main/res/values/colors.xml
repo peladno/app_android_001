@@ -3,4 +3,5 @@
     <color name="black">#000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="red">#FF0000</color>
+    <color name="green_background">#00b346</color>
 </resources>
