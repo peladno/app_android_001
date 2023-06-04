@@ -34,7 +34,10 @@ public class MainActivity extends AppCompatActivity {
                     editEmail.setError("Ingrese su email");
                     return;
                 }
-
+                if (!android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+                    editEmail.setError("Ingrese un email válido");
+                    return;
+                }
                 Intent intent = new Intent(MainActivity.this, SecondaryActivity.class);
                 intent.putExtra("email", email);
                 intent.putExtra("name", name);
